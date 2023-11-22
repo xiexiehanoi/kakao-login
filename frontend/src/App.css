@@ -37,3 +37,16 @@ button:active {
 .App :not(style) {
   margin: 10px;
 }
+
+.kakao {
+  background-color: #fee500;
+  color: #000000;
+}
+
+.kakao:hover {
+  background-color: #f4dd0a;
+}
+
+.kakao:active {
+  background-color: #ead514;
+}

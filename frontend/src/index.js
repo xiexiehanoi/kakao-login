@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Main from "./Main";
+import KakaoCallback from "./KakaoCallback.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="main" element={<Main />} />
+        <Route path="callback/kakao" element={<KakaoCallback />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
